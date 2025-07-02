@@ -9,4 +9,14 @@ public class PayLoad {
 				+ "}";
 		return str;
 	}
+
+
+	public static String getBookDetails(String isbn, String aisle, String author) {
+        return "{\n" +
+               "  \"name\": \"Learn Appium Automation with Java\",\n" +
+               "  \"isbn\": \"" + isbn + "\",\n" +
+               "  \"aisle\": \"" + aisle + "\",\n" +
+               "  \"author\": \"" + author + "\"\n" +
+               "}";
+    }
 }
