@@ -19,4 +19,27 @@ public class PayLoad {
                "  \"author\": \"" + author + "\"\n" +
                "}";
     }
+	public static String xmlpayload() {
+	    String xmlpayload = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
+	            "<Pet>\n" +
+	            "  <id>0</id>\n" +
+	            "  <Category>\n" +
+	            "    <id>0</id>\n" +
+	            "    <name>string</name>\n" +
+	            "  </Category>\n" +
+	            "  <name>doggie</name>\n" +
+	            "  <photoUrls>\n" +
+	            "    <photoUrl>string</photoUrl>\n" +
+	            "  </photoUrls>\n" +
+	            "  <tags>\n" +
+	            "    <Tag>\n" +
+	            "      <id>0</id>\n" +
+	            "      <name>string</name>\n" +
+	            "    </Tag>\n" +
+	            "  </tags>\n" +
+	            "  <status>available</status>\n" +
+	            "</Pet>";
+	    return xmlpayload;
+	}
+
 }
